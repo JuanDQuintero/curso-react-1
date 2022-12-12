@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+//Añadimos bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+//!Importante: los estilos porpios, deben ir debajo del bootstrap
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
